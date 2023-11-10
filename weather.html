@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather App</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <script src="assets/js/bootstrap.js"></script>
+
+    <link href="assets/css/myCSS.css" rel="stylesheet">
+    <script src="assets/js/myJS.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="p-5 text-center bg-dark">
+        <span class="display-6 mb-3 navText">Welcome to my Weather App</span>
+    </div>
+</header>
+<br><br>
+
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <form class="form-inline py-3">
+            <input class="form-control" id="zip" max="999999" min="10000" type="number" placeholder="Enter ZIP Code Here"><br>
+            <button class="btn btn-primary" onclick="getZipInfo()" type="button">Submit</button>
+        </form>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+        <span id="results"></span>
+    </div>
+    <div class="col-sm-2"></div>
+
+</div>
+</body>
+</html>
