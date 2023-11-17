@@ -1,3 +1,79 @@
 .navText {
     color: white;
 }
+.cityTxt {
+    text-align: center;
+}
+.cityBox {
+    border: solid black 1px;
+    align-content: center;
+    border-radius: 12px;
+}
+.stateTxt {
+    text-align: center;
+    margin-top: 15px;
+}
+.stateBox {
+    border: solid black 1px;
+    align-content: center;
+    border-radius: 12px;
+    padding: 10px 10px 10px;
+}
+.humidityTxt {
+    text-align: center;
+    margin-top: 15px;
+}
+.humidityBox {
+    border: solid black 1px;
+    align-content: center;
+    border-radius: 12px;
+}
+.humidityImg {
+    margin-left: 3.2rem;
+}
+.pressureTxt {
+    text-align: center;
+    margin-top: 15px;
+}
+.pressureBox {
+    border: solid black 1px;
+    align-content: center;
+    border-radius: 12px;
+}
+.pressureImg {
+    width: 120px;
+    margin-left: 4rem;
+}
+.windSpeedTxt {
+    text-align: center;
+    margin-top: 15px;
+}
+.windSpeedBox {
+    border: solid black 1px;
+    align-content: center;
+    border-radius: 12px;
+}
+.windSpeedImg {
+    width: 120px;
+    margin-left: 3.8rem;
+}
+.tempTxt {
+    text-align: center;
+    margin-right: 10rem;
+}
+.tempBox {
+    align-content: center;
+}
+.tempImg {
+    width: 350px;
+}
+.feelsLikeTxt {
+    text-align: center;
+    margin-right: 10rem;
+}
+.feelsLikeBox {
+    align-content: center;
+}
+.feelsLikeImg {
+    width: 350px;
+}

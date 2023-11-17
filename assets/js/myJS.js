@@ -24,34 +24,14 @@ function getZipInfo() {
                         let feelsLike = data.main.feels_like
                         let temp = data.main.temp
                         let speed = data.wind.speed
-
-                        let icon = data.weather[0].icon
-                        let img = `http://openweathermap.org/img/wn/${icon}@2x.png`
-                        ostr += "<table class='table table-striped'>"
-                        ostr += "<thead>"
-                        ostr += "<tr>"
-                        ostr += "<th>City</th>"
-                        ostr += "<th>State</th>"
-                        ostr += "<th>Temperature (F)</th>"
-                        ostr += "<th>Feels Like (F)</th>"
-                        ostr += "<th>Humidity</th>"
-                        ostr += "<th>Pressure</th>"
-                        ostr += "<th>Wind Speed</th>"
-                        ostr += " <th></th>"
-                        ostr += "</tr>"
-                        ostr += "</thead>"
-                        ostr += "<tbody>"
-                        ostr += `<tr>`
-                        ostr += `<td> ${pl['place name']} </td>`
-                        ostr += `<td> ${[pl.state]} </td>`
-                        ostr += `<td> ${[temp]} </td>`
-                        ostr += `<td> ${[feelsLike]} </td>`
-                        ostr += `<td> ${[humidity]} </td>`
-                        ostr += `<td> ${[pressure]} </td>`
-                        ostr += `<td> ${[speed]} </td>`
-                        ostr += `<td> <img src='${img}'> </td>`
-                        ostr += '</tr></tbody></table>'
                         document.getElementById("results").innerHTML = ostr
+                        document.getElementById("city").innerHTML = pl['place name'];
+                        document.getElementById('state').innerHTML = pl.state;
+                        document.getElementById('humidity').innerHTML = humidity;
+                        document.getElementById('pressure').innerHTML = pressure;
+                        document.getElementById('windSpeed').innerHTML = speed;
+                        document.getElementById('temp').innerHTML = temp;
+                        document.getElementById('feelsLike').innerHTML = feelsLike;
                     }))
             }
         }).catch(function (err) {
