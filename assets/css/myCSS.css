@@ -4,7 +4,7 @@
 .cityTxt {
     text-align: center;
 }
-.cityBox {
+.rBox {
     border: solid black 1px;
     align-content: center;
     border-radius: 12px;
@@ -19,39 +19,16 @@
     border-radius: 12px;
     padding: 10px 10px 10px;
 }
-.humidityTxt {
+.rTxt {
     text-align: center;
     margin-top: 15px;
-}
-.humidityBox {
-    border: solid black 1px;
-    align-content: center;
-    border-radius: 12px;
 }
 .humidityImg {
     margin-left: 3.2rem;
 }
-.pressureTxt {
-    text-align: center;
-    margin-top: 15px;
-}
-.pressureBox {
-    border: solid black 1px;
-    align-content: center;
-    border-radius: 12px;
-}
 .pressureImg {
     width: 120px;
     margin-left: 4rem;
-}
-.windSpeedTxt {
-    text-align: center;
-    margin-top: 15px;
-}
-.windSpeedBox {
-    border: solid black 1px;
-    align-content: center;
-    border-radius: 12px;
 }
 .windSpeedImg {
     width: 120px;
